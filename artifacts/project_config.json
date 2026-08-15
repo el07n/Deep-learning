@@ -1,0 +1,13 @@
+{
+  "image_size": 224,
+  "batch_size": 16,
+  "max_ingredients": 50,
+  "validation_fraction": 0.15,
+  "seed": 42,
+  "dropout_rate": 0.3,
+  "head_learning_rate": 0.001,
+  "fine_tune_learning_rate": 1e-05,
+  "fine_tune_fraction": 0.25,
+  "recognition_loss_weight": 1.0,
+  "nutrition_loss_weight": 1.0
+}

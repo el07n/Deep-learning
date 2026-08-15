@@ -1,0 +1,13 @@
+{
+  "coverage": 0.95,
+  "method": "validation_absolute_residual_quantile",
+  "columns": [
+    "total_calories",
+    "total_protein"
+  ],
+  "absolute_error": [
+    203.3989051793289,
+    20.6545643145839
+  ],
+  "calibration_samples": 432
+}

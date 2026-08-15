@@ -1,0 +1,241 @@
+{
+  "rows": 3259,
+  "unique_dishes": 3259,
+  "split_counts": {
+    "train": 2321,
+    "test": 506,
+    "validation": 432
+  },
+  "nutrition": {
+    "total_calories": {
+      "mean": 254.03750426449832,
+      "std": 209.89337271384358,
+      "median": 209.189362,
+      "min": 1.15,
+      "max": 1324.084961
+    },
+    "total_protein": {
+      "mean": 17.995367540963485,
+      "std": 20.01261147776555,
+      "median": 11.506332,
+      "min": 0.072,
+      "max": 147.491821
+    }
+  },
+  "ingredient_vocabulary_size": 50,
+  "top_ingredients": [
+    {
+      "name": "olive oil",
+      "dish_count": 1561
+    },
+    {
+      "name": "salt",
+      "dish_count": 1378
+    },
+    {
+      "name": "garlic",
+      "dish_count": 946
+    },
+    {
+      "name": "pepper",
+      "dish_count": 723
+    },
+    {
+      "name": "vinegar",
+      "dish_count": 713
+    },
+    {
+      "name": "onions",
+      "dish_count": 685
+    },
+    {
+      "name": "lemon juice",
+      "dish_count": 572
+    },
+    {
+      "name": "arugula",
+      "dish_count": 506
+    },
+    {
+      "name": "parsley",
+      "dish_count": 493
+    },
+    {
+      "name": "cherry tomatoes",
+      "dish_count": 480
+    },
+    {
+      "name": "spinach (raw)",
+      "dish_count": 436
+    },
+    {
+      "name": "carrot",
+      "dish_count": 432
+    },
+    {
+      "name": "shallots",
+      "dish_count": 402
+    },
+    {
+      "name": "broccoli",
+      "dish_count": 398
+    },
+    {
+      "name": "mustard",
+      "dish_count": 374
+    },
+    {
+      "name": "cucumbers",
+      "dish_count": 329
+    },
+    {
+      "name": "mixed greens",
+      "dish_count": 319
+    },
+    {
+      "name": "chicken",
+      "dish_count": 306
+    },
+    {
+      "name": "thyme",
+      "dish_count": 297
+    },
+    {
+      "name": "wheat berry",
+      "dish_count": 296
+    },
+    {
+      "name": "cheese pizza",
+      "dish_count": 262
+    },
+    {
+      "name": "white rice",
+      "dish_count": 256
+    },
+    {
+      "name": "cauliflower",
+      "dish_count": 242
+    },
+    {
+      "name": "lime",
+      "dish_count": 236
+    },
+    {
+      "name": "chard",
+      "dish_count": 228
+    },
+    {
+      "name": "bok choy",
+      "dish_count": 226
+    },
+    {
+      "name": "jalapenos",
+      "dish_count": 222
+    },
+    {
+      "name": "brown rice",
+      "dish_count": 220
+    },
+    {
+      "name": "bell peppers",
+      "dish_count": 217
+    },
+    {
+      "name": "kale",
+      "dish_count": 209
+    },
+    {
+      "name": "olives",
+      "dish_count": 202
+    },
+    {
+      "name": "squash",
+      "dish_count": 198
+    },
+    {
+      "name": "sweet potato",
+      "dish_count": 194
+    },
+    {
+      "name": "scrambled eggs",
+      "dish_count": 191
+    },
+    {
+      "name": "bacon",
+      "dish_count": 190
+    },
+    {
+      "name": "caesar salad",
+      "dish_count": 185
+    },
+    {
+      "name": "pineapple",
+      "dish_count": 184
+    },
+    {
+      "name": "fish",
+      "dish_count": 183
+    },
+    {
+      "name": "millet",
+      "dish_count": 179
+    },
+    {
+      "name": "berries",
+      "dish_count": 179
+    },
+    {
+      "name": "cilantro",
+      "dish_count": 175
+    },
+    {
+      "name": "apple",
+      "dish_count": 173
+    },
+    {
+      "name": "almonds",
+      "dish_count": 173
+    },
+    {
+      "name": "beef",
+      "dish_count": 171
+    },
+    {
+      "name": "pork",
+      "dish_count": 170
+    },
+    {
+      "name": "blueberries",
+      "dish_count": 170
+    },
+    {
+      "name": "egg whites",
+      "dish_count": 167
+    },
+    {
+      "name": "mushroom",
+      "dish_count": 164
+    },
+    {
+      "name": "lettuce",
+      "dish_count": 159
+    },
+    {
+      "name": "green beans",
+      "dish_count": 158
+    }
+  ],
+  "cleaning_report": {
+    "input_rows": 5005,
+    "duplicate_dish_ids_removed": 0,
+    "missing_values_removed": 0,
+    "missing_image_paths_removed": 1744,
+    "invalid_nutrition_removed": 2,
+    "missing_images_removed": 0,
+    "corrupt_images_removed": 0,
+    "output_rows": 3259,
+    "manually_excluded": 1
+  },
+  "used_official_test_split": true,
+  "used_official_train_split": true
+}

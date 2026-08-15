@@ -1,0 +1,11 @@
+{
+  "columns": [
+    "total_calories",
+    "total_protein"
+  ],
+  "scales": [
+    648.975952,
+    54.80373
+  ],
+  "method": "train_p95"
+}

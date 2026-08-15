@@ -1,0 +1,4 @@
+# Put one dish_id per line after manual visual inspection.
+# Lines beginning with # are ignored.
+# dish_0000000000
+

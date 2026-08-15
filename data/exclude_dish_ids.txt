@@ -1,0 +1,5 @@
+# Add one dish_id per line only after manual visual inspection.
+# Lines beginning with # are ignored.
+
+# Metadata reports 3,051 g / 3,943 kcal, but the RGB image shows a small plate.
+dish_1560974769

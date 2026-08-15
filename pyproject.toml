@@ -1,0 +1,5 @@
+[project]
+name = "smartplate-ai"
+version = "0.1.0"
+description = "Food component recognition and direct calorie/protein estimation with transfer learning."
+requires-python = ">=3.10,<3.13"
