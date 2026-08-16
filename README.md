@@ -10,6 +10,17 @@ heads:
 The prediction path is local. It does not call a nutrition API or retrieve the
 answer from a food database.
 
+## One-click Google Colab notebooks
+
+| Notebook | Open in Colab |
+|---|---|
+| Nutrition5k download, cleaning, preprocessing, statistics, and plots | [![Open Data Preparation in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/el07n/Deep-learning/blob/main/notebooks/01_data_preparation.ipynb) |
+| EfficientNetV2B0 model, transfer learning, fine-tuning, and evaluation | [![Open Model Training in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/el07n/Deep-learning/blob/main/notebooks/02_model_training.ipynb) |
+
+The model notebook is standalone: if prepared data is not already available in
+the active Colab runtime, it downloads and prepares the official overhead RGB
+subset before training. Select a T4 GPU before running the model notebook.
+
 ## Why this satisfies the assignment
 
 - **Existing pre-trained model:** Keras EfficientNetV2B0 with ImageNet weights.
